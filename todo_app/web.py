@@ -13,7 +13,7 @@ def add_todo():
     st.session_state["new_todo_input"] = ""
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="ToDo app")
 
 st.title("My ToDo app")
 st.subheader("Get your shit together! 💩")
